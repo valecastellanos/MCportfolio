@@ -1,0 +1,270 @@
+/*tipografía poppins DISPLAY*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*tipografía mukta texto*/
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+
+    box-sizing: border-box;
+}
+
+body {
+    width: 1350px;
+    height: 1440px;
+    background-image: url(../imagenes/FondoDegrade.jpg);
+    background-size: cover;
+    font-family: "Mukta", sans-serif;
+}
+
+.logo{
+    width: 5%;
+    margin-left: 60px;
+    margin-top: 70px;
+}
+
+h1{
+    width: 400px;
+    margin-left: 140px;
+    margin-top: 10px;
+    font-family:"Poppins", sans-serif ;
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(240, 243, 235);
+}
+
+h2{
+    margin-top: 80px;
+    margin-left: 140px;
+    margin-bottom: 0px;
+    font-family:"Poppins", sans-serif ;
+    font-weight: 300;
+    color: rgb(204, 222, 168);
+}
+
+h3{
+    font-family:"Poppins", sans-serif ;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: -2px;
+    margin-left: 140px;
+    transition: all 1s;
+    background-color: #c1c9b63c;
+    width: 330px;
+    height: 35px;
+    border-radius: 10px;
+    border: 0.5px black;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    padding-top: 4px;
+}
+
+h3:hover{
+    color: #97df3a;
+    background-color: #0000005c;
+}
+
+.equipamiento{
+    margin-bottom: -330px;
+    margin-top: 250px;
+    transition: all 1s;
+}
+
+.alimento{
+    color: #a6c979;
+}
+
+p{
+    width: 400px;
+    margin-left: 140px;
+    color: #000000;
+    font-family: "Mukta", sans-serif;
+    text-align: left;
+    font-weight: 200;
+}
+
+a{
+    text-decoration: none;
+    color:#bfe73e
+}
+
+.redes-conteiner {
+    display: flex;
+    justify-content: center; 
+    gap: 10px; /* lo uso asi dejo espacio entre los botones */
+    margin-left: 900px;
+}
+
+.redes {
+    display: block;
+    text-decoration: overline;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    background-color: #ffffff16;
+    border: 0.5px dashed black;
+    text-decoration-line: overline;
+    text-transform: uppercase;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    transition: all 1s;
+    margin-top: -480px;
+    justify-content: space-between;
+}
+
+.redes:hover {
+    background-color: #000000;
+    border-color: #ffffff;
+    border-radius: 25px;
+}
+
+main{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+video{
+    width: 15%;
+    margin-top: -467px;
+    margin-left: 75px;
+}
+
+.galeria1{
+    background-color: #e1f79f54;
+    width: 130px;
+    height: 180px;
+    margin-left: 140px;
+    margin-top: 70px;
+    border-radius: 20px;
+    border: 0.5px dashed black;
+    transition: all 1s;
+    
+}
+
+.galeria1:hover{
+    border-radius: 20px;
+    background-color: #f8fce8;
+}
+
+.galeria2{
+    background-color: #e1f79f54;
+    width: 130px;
+    height: 180px;
+    margin-left:10px;
+    margin-top: 70px;
+    border-radius: 18px;
+    border: 0.5px dashed black;
+    transition: all 1s;
+}
+
+.galeria2:hover{
+    background-color: #f8fce8;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+.galeria3{
+    background-color: #e1f79f54;
+    width: 130px;
+    height: 180px;
+    margin-left: 10px;
+    margin-top: 70px;
+    border-radius: 20px;
+    border: 0.5px dashed black;
+    transition: all 1s;
+}
+
+.galeria3:hover{
+    background-color: #f8fce8;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+img{ 
+    width: 93%;
+    margin-top: 5px;
+    margin-left: 4.5px;
+    border-radius: 15px;
+}
+
+.galeria4{
+    background-color: #e1f79f54;
+    width: 130px;
+    height: 180px;
+    margin-left: 140px;
+    margin-top: 100px;
+    border-radius: 20px;
+    border: 0.5px dashed black;
+    transition: all 1s;
+    
+}
+
+.galeria4:hover{
+    border-radius: 20px;
+    background-color: #f8fce8;
+}
+
+.galeria5{
+    background-color: #e1f79f54;
+    width: 130px;
+    height: 180px;
+    margin-left: 280px;
+    margin-top: -180px;
+    border-radius: 20px;
+    border: 0.5px dashed black;
+    transition: all 1s;
+    
+}
+
+.galeria5:hover{
+    border-radius: 20px;
+    background-color: #f8fce8;
+}
+
+.galeria6{
+    background-color: #e1f79f54;
+    width: 130px;
+    height: 180px;
+    margin-left: 420px;
+    margin-top: -180px;
+    border-radius: 20px;
+    border: 0.5px dashed black;
+    transition: all 1s;
+    
+}
+
+.galeria6:hover{
+    border-radius: 20px;
+    background-color: #f8fce8;
+}
+
+.animacionmanito {
+    width: 232px; 
+    height: 264px;
+    background-image: url('../imagenes/ANIMACION ESTE.png');
+    background-size: auto 1191.77584px; 
+    animation: animacion 1s steps(4) infinite;
+    animation-direction: alternate-reverse;
+    
+    /*posicion*/
+    position: absolute;
+    top: calc(250px); 
+    left: calc(1020px); 
+}
+
+@keyframes animacion {
+    0% { background-position: 0px 0px; }
+    100% { background-position: 0px -1191.77584px; } /* Ajusta según el alto total de los fotogramas */
+}
+
+
+
+
+
+
+
+
+
